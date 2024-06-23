@@ -1,4 +1,4 @@
-// FormSummary.js
+
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './JobApplicationForm.css';
