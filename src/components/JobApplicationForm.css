@@ -1,0 +1,157 @@
+/* JobApplicationForm.css */
+.card {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-header {
+    background-color: #333;
+    padding: 16px;
+    text-align: center;
+}
+
+.card-header .text-header {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 12px 24px;
+    margin-left: 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Additional styles for react-select and react-datepicker */
+.react-select__control {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* JobApplicationForm.css */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+}
+
+/* ... (keep the rest of the existing styles) ... */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .card {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .card-body {
+        padding: 12px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Add these styles to JobApplicationForm.css */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+/* FormSummary.css */
+.summary p {
+    margin-bottom: 10px;
+}
+
+.summary strong {
+    font-weight: bold;
+}
