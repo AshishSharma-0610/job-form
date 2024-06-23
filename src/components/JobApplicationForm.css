@@ -42,7 +42,7 @@
 .form-group input[type="tel"],
 .form-group input[type="number"],
 .form-group textarea {
-    width: 100%;
+    width: 95%;
     padding: 8px;
     font-size: 14px;
     border: 1px solid #ccc;
