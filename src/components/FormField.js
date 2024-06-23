@@ -1,4 +1,4 @@
-// FormField.js
+
 import React from 'react';
 
 const FormField = ({ label, name, type = 'text', as, value, onChange, error }) => {
