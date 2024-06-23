@@ -1,4 +1,4 @@
-/* JobApplicationForm.css */
+
 .card {
     width: 350px;
     border: 1px solid #ccc;
@@ -67,7 +67,6 @@
     color: #333;
 }
 
-/* Additional styles for react-select and react-datepicker */
 .react-select__control {
     border: 1px solid #ccc !important;
     box-shadow: none !important;
@@ -91,7 +90,7 @@
     margin-top: 4px;
 }
 
-/* JobApplicationForm.css */
+
 .form-container {
     display: flex;
     justify-content: center;
@@ -100,19 +99,7 @@
     padding: 20px;
 }
 
-.card {
-    width: 100%;
-    max-width: 500px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin: 10px;
-}
 
-/* ... (keep the rest of the existing styles) ... */
-
-/* Media queries for responsiveness */
 @media screen and (max-width: 600px) {
     .card {
         max-width: 100%;
@@ -129,7 +116,7 @@
     }
 }
 
-/* Add these styles to JobApplicationForm.css */
+
 .checkbox-group {
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +134,7 @@
 }
 
 
-/* FormSummary.css */
+
 .summary p {
     margin-bottom: 10px;
 }
